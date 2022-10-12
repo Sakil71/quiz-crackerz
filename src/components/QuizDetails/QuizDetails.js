@@ -18,9 +18,7 @@ const QuizDetails = ({ quizes }) => {
             autoClose: 2000,
           });
         }
-      };   
-
-
+      }; 
 
     return (
         <div className='question-box my-5 border border-blue-200 w-1/2 mx-auto p-5 rounded'>
