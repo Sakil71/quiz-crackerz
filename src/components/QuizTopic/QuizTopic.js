@@ -14,7 +14,7 @@ const QuizTopic = ({ quiz }) => {
                 <p className='font-medium ml-4 opacity-60'><small>{total}</small></p>
 
 
-                <Link to= {`quiz/${id}`} className=' flex py-1'>
+                <Link to= {`quiz/${id}`} className=' flex py-1 bg-red-400 px-5 rounded ml-10'>
                         <p>Quiz</p>
                         <ArrowSmallRightIcon className="h-6 w-6 text-blue-500 ml-3" />
                 </Link>

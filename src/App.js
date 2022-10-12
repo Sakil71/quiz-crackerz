@@ -2,8 +2,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home';
 import Quiz from './components/Quiz/Quiz';
-import Topic from './components/Topic/Topic';
 import Main from './Layout/Main';
+import Blog from './components/Blog/Blog';
 
 function App() {
   const router = createBrowserRouter([
@@ -26,8 +26,8 @@ function App() {
         },
 
         {
-          path: 'topic',
-          element: <Topic></Topic>
+          path: 'blog',
+          element: <Blog></Blog>
         },
 
         {
@@ -39,7 +39,7 @@ function App() {
         },
         {
           path: '*',
-          element: <h1>Error 404</h1>
+          element: <h1>Error 404 not found</h1>
         }
       ]
     }
