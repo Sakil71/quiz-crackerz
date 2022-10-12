@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Quiz from './components/Quiz/Quiz';
 import Main from './Layout/Main';
 import Blog from './components/Blog/Blog';
+import Statistic from './components/Statistic/Statistic';
 
 function App() {
   const router = createBrowserRouter([
@@ -40,6 +41,10 @@ function App() {
         {
           path: '*',
           element: <h1>Error 404 not found</h1>
+        },
+        {
+          path: 'statistic',
+          element: <Statistic></Statistic>
         }
       ]
     }

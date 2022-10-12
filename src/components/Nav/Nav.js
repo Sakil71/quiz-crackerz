@@ -10,7 +10,8 @@ const Nav = () => {
             </div>
             <div className='mt-2'>
                 <Link className='font-bold mr-5' to='home'>Home</Link>
-                <Link className='font-bold' to='blog'>Blog</Link>
+                <Link className='font-bold mr-5' to='blog'>Blog</Link>
+                <Link className='font-bold' to='statistic'>Statistic</Link>
             </div>
         </div>
     );
